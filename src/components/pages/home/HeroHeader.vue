@@ -11,7 +11,7 @@
               <div class="camera"></div>
               <div class="display">
                 <img
-                    src="@/assets/screenshots/Screenshot_20250105_155021.png"
+                    src="@/assets/screenshots/Screenshot_20250105_155021.webp"
                     alt=""
                     class="object-cover"
                 />
@@ -25,7 +25,7 @@
               <div class="camera"></div>
               <div class="display">
                 <img
-                    src="@/assets/screenshots/Screenshot_20250105_154858.png"
+                    src="@/assets/screenshots/Screenshot_20250105_154858.webp"
                     alt=""
                     class="object-cover"
                 />
@@ -39,7 +39,7 @@
             <div class="camera"></div>
             <div class="display">
               <img
-                  src="@/assets/screenshots/Screenshot_20250105_155308.png"
+                  src="@/assets/screenshots/Screenshot_20250105_155308.webp"
                   alt=""
                   class="object-cover"
               />
@@ -60,7 +60,7 @@
             <div class="camera"></div>
             <div class="display">
               <img
-                  src="@/assets/screenshots/Screenshot_20250105_155357.png"
+                  src="@/assets/screenshots/Screenshot_20250105_155357.webp"
                   alt=""
                   class="object-cover"
               />
@@ -74,7 +74,7 @@
             <div class="camera"></div>
             <div class="display">
               <img
-                  src="@/assets/screenshots/Screenshot_20250105_155338.png"
+                  src="@/assets/screenshots/Screenshot_20250105_155338.webp"
                   alt=""
                   class="object-cover"
               />
@@ -88,7 +88,7 @@
             <div class="camera"></div>
             <div class="display">
               <img
-                  src="@/assets/screenshots/Screenshot_20250105_154858.png"
+                  src="@/assets/screenshots/Screenshot_20250105_154858.webp"
                   alt=""
                   class="object-cover"
               />
