@@ -6,16 +6,48 @@
         :style="{ transform: `rotate(30deg) translateY(${mockupPosition1}px)` }"
     >
         <div class="relative">
-          <PhoneMockup imageSrc="./src/assets/screenshots/Screenshot_20250105_155021.png"/>
-
+          <div class="z-20 right-0 top-0 overflow-hidden">
+            <div class="mockup-phone">
+              <div class="camera"></div>
+              <div class="display">
+                <img
+                    src="@/assets/screenshots/Screenshot_20250105_155021.png"
+                    alt=""
+                    class="object-cover"
+                />
+              </div>
+            </div>
+          </div>
         </div>
         <div class="relative">
-          <PhoneMockup imageSrc="./src/assets/screenshots/Screenshot_20250105_154858.png"/>
+          <div class="z-20 right-0 top-0 overflow-hidden">
+            <div class="mockup-phone">
+              <div class="camera"></div>
+              <div class="display">
+                <img
+                    src="@/assets/screenshots/Screenshot_20250105_154858.png"
+                    alt=""
+                    class="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="relative">
+        <div class="z-20 right-0 top-0 overflow-hidden">
+          <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+              <img
+                  src="@/assets/screenshots/Screenshot_20250105_155308.png"
+                  alt=""
+                  class="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
 
-        </div>
-        <div class="relative">
-          <PhoneMockup imageSrc="./src/assets/screenshots/Screenshot_20250105_155308.png"/>
-        </div>
     </div>
     <div
         class="absolute top-1/6 right-0 xl:right-20 -translate-y-1/4 flex-col w-72 gap-20 flex pointer-events-none"
@@ -23,14 +55,48 @@
         :style="{ transform: `rotate(30deg) translateY(${mockupPosition2}px)` }"
     >
       <div class="relative">
-        <PhoneMockup imageSrc="./src/assets/screenshots/Screenshot_20250105_155357.png"/>
+        <div class="z-20 right-0 top-0 overflow-hidden">
+          <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+              <img
+                  src="@/assets/screenshots/Screenshot_20250105_155357.png"
+                  alt=""
+                  class="object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <div class="relative">
-        <PhoneMockup imageSrc="./src/assets/screenshots/Screenshot_20250105_155338.png"/>
+        <div class="z-20 right-0 top-0 overflow-hidden">
+          <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+              <img
+                  src="@/assets/screenshots/Screenshot_20250105_155338.png"
+                  alt=""
+                  class="object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <div class="relative">
-        <PhoneMockup imageSrc="./src/assets/screenshots/Screenshot_20250105_154858.png"/>
+        <div class="z-20 right-0 top-0 overflow-hidden">
+          <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+              <img
+                  src="@/assets/screenshots/Screenshot_20250105_154858.png"
+                  alt=""
+                  class="object-cover"
+              />
+            </div>
+          </div>
+        </div>
       </div>
+
     </div>
 
     <NavbarComponent />
@@ -44,12 +110,22 @@
         </h1>
         <p class="text-gray-400 mt-4 text-lg">Soon for Android and iOS</p>
         <div class="flex gap-4 mt-8">
-          <button class="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition-colors">
+          <a
+              href="https://discord.dayquest.de/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition-colors"
+          >
             Join the Beta!
-          </button>
-          <button class="text-white hover:text-gray-300 px-6 py-2">
+          </a>
+          <a
+              href="https://discord.dayquest.de"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-white hover:text-gray-300 px-6 py-2"
+          >
             Join our Discord!
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -58,13 +134,11 @@
 </template>
 
 <script>
-import PhoneMockup from "@/components/modules/PhoneMockup.vue";
 import NavbarComponent from "@/components/NavbarComponent.vue";
 
 export default {
   name: "LandingPage",
   components: {
-    PhoneMockup,
     NavbarComponent,
   },
   data() {
