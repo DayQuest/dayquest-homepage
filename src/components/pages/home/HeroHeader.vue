@@ -101,20 +101,20 @@
 
     <NavbarComponent />
 
-    <div class="max-w-7xl ml-20 md:ml-auto mx-auto px-4 pt-72 pb-32 relative">
+    <div class="max-w-7xl  sm:ml-20 xl:ml-auto mx-auto px-4 pt-72 pb-32 relative">
       <div class="max-w-2xl">
         <h1 class="text-white text-6xl font-bold leading-tight">
           A new <span class="text-indigo-400">Quest</span>,
           <br />
           every day!
         </h1>
-        <p class="text-gray-400 mt-4 text-lg">Soon for Android and iOS</p>
+        <p class="text-gray-400  mt-4 text-lg">Soon for Android and iOS</p>
         <div class="flex gap-4 mt-8">
           <a
               href="https://discord.dayquest.de/"
               target="_blank"
               rel="noopener noreferrer"
-              class="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition-colors"
+              class="bg-white  text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition-colors"
           >
             Join the Beta!
           </a>
