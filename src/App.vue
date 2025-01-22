@@ -14,7 +14,7 @@ onMounted(() => {
       { threshold: 0.5 }
   );
 
-  const target = document.querySelector('#coming-soon');
+  const target = document.querySelector('#cumming-soon');
   if (target) {
     observer.observe(target);
   }
