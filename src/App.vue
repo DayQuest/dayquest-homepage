@@ -27,7 +27,7 @@ onMounted(() => {
     <HeroHeaderComponent />
 
     <div
-        id="coming-soon"
+        id="cumming-soon"
         :class="{'animate-fadeIn': isVisible}"
         class="mt-20 text-center text-xl font-bold opacity-0 transition-opacity duration-1000"
     >
