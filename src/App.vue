@@ -31,7 +31,7 @@ onMounted(() => {
         :class="{'animate-fadeIn': isVisible}"
         class="mt-20 text-center text-xl font-bold opacity-0 transition-opacity duration-1000"
     >
-      Cumming Soon
+      Coming Soon
     </div>
 
   </div>
