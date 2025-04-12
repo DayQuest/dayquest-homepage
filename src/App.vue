@@ -22,20 +22,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-[200vh]">
+  <div class="h-[105vh]">
     <NavbarComponent />
-    <HeroHeaderComponent />
-
-    <div
-        id="cumming-soon"
-        :class="{'animate-fadeIn': isVisible}"
-        class="mt-20 text-center text-xl font-bold opacity-0 transition-opacity duration-1000"
-    >
-      Coming Soon
-    </div>
-
+    <router-view></router-view>
   </div>
-<FooterComponent/>
+  <FooterComponent />
 </template>
 
 <style scoped>
