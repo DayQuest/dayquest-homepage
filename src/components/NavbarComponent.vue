@@ -4,9 +4,9 @@
       <img src="@/assets/logo.svg" class="h-10" alt="Logo">
     </div>
     <div class="flex gap-8">
-      <a href="#" class="text-white hover:text-gray-300">Home</a>
-      <a href="#" class="text-white hover:text-gray-300">About</a>
-      <a href="#" class="text-white hover:text-gray-300">Support</a>
+      <router-link to="/home" class="text-white hover:text-gray-300">Home</router-link>
+      <router-link to="/about" class="text-white hover:text-gray-300">About</router-link>
+      <router-link to="/support" class="text-white hover:text-gray-300">Support</router-link>
     </div>
   </nav>
 </template>
