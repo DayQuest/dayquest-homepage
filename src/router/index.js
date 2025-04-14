@@ -8,6 +8,7 @@ const routes = [
   { path: '/about', component: AboutUs },
   //Temporary
   { path: '/support', component: Home },
+  { path: '/home', component: Home},
 ];
 
 const router = createRouter({
