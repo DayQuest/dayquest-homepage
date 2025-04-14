@@ -6,7 +6,8 @@ import Support from '@/components/pages/Support.vue';
 const routes = [
   { path: '/', component: Home },
   { path: '/about', component: AboutUs },
-  { path: '/support', component: Support },
+  //Temporary
+  { path: '/support', component: Home },
 ];
 
 const router = createRouter({
